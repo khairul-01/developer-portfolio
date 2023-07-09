@@ -40,13 +40,59 @@ nav a{
 /* Header releted styles */
 .header{
    background-color: #FFF8F3;
+   background-image: url('../images/header_bg.png');
+   background-repeat: no-repeat;
+   background-position:bottom right;
 }
 .banner{
    display: flex;
-   padding: 30px 30px 30px 220px;
+   padding: 30px 30px 0px 220px;
    align-items: center;
+   justify-content: space-between;
 }
 .banner .profile-pic{
    width: 500px;
    height: 600px;
+}
+.banner-content{
+   width: 585px;
+}
+.greetings{
+   font-size: 45px;
+   color: #474747;
+   margin-bottom: 0;
+}
+.banner-title{
+   font-size: 85px;
+   color: #181818;
+   margin-top: 5px;
+   margin-bottom: 20px;
+}
+.banner-description{
+   font-size: 18px;
+   color: #757575;
+   margin-bottom: 20px;
+}
+/* About section start here */
+.about{
+   padding: 130px;
+   margin: 130px 230px;
+   text-align: center;
+}
+.section-title{
+   color:#181818;
+   text-align: center;
+   font-size: 35px;
+   font-weight: 700;
+}
+.section-description{
+   color:#757575;
+   text-align: center;
+   font-size: 18px;
+   font-weight: 400;
+   line-height: 30px;
+}
+.about-info-container{
+   display: flex;
+   justify-content: space-around;
 }
