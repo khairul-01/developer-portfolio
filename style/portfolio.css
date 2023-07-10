@@ -167,3 +167,35 @@ main{
 .resume-title{
    line-height: 0px;
 }
+/* Footer section start  */
+.footer-title{
+   color: #181818;
+   text-align: center;
+   font-size: 35px;
+   font-weight: 700;
+}
+footer{
+   padding: 130px 230px;
+   display: flex;
+   justify-content: space-between;
+   gap: 100px;
+}
+.footer-text{
+   color: #474747;
+}
+.footer-icon{
+   margin-right: 25px;
+}
+.footer-col{
+   width: 50%;
+}
+.contact input, textarea{
+   display: block;
+   margin-bottom: 25px;
+   padding: 18px 30px;
+   color: #757575;
+   border: none;
+   border-radius: 5px;
+   background:#FFF;
+   width: 100%;
+}
