@@ -160,3 +160,10 @@ main{
    font-weight: 600;
    line-height: normal;
 }
+.resume-btn{
+   text-align: center;
+   margin-top: 50px;
+}
+.resume-title{
+   line-height: 0px;
+}
