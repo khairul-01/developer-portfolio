@@ -73,11 +73,15 @@ nav a{
    color: #757575;
    margin-bottom: 20px;
 }
+main{
+   margin: 130px 230px;
+}
 /* About section start here */
 .about{
-   padding: 130px;
-   margin: 130px 230px;
+   padding: 120px 100px;
+   /* margin: 130px 230px; */
    text-align: center;
+   background-color: #FFF8F3;
 }
 .section-title{
    color:#181818;
@@ -95,4 +99,21 @@ nav a{
 .about-info-container{
    display: flex;
    justify-content: space-around;
+}
+/* What I do section start here */
+#what-do{
+   padding: 30px 100px;
+   /* margin: 130px 230px; */
+   text-align: center;
+}
+.skill-container{
+   display: flex;
+   justify-content: space-around;
+   margin-top: 50px;
+}
+.skill{
+   width: 270px;
+   height: 400px;
+   margin: 0 6px;
+   padding: 30px;
 }
